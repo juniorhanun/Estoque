@@ -1,0 +1,13 @@
+heroku config:set APP_ENV=local
+heroku config:set APP_KEY=base64:h92DD80RNlvTffcNfCAybRsE+9iYw4UO0oVNAnxbELA=
+heroku config:set APP_DEBUG=true
+heroku config:set APP_LOG_LEVEL=debug
+heroku config:set APP_URL=http://localhost
+
+heroku config:set DB_CONNECTION=pgsql
+heroku config:set DB_HOST=ec2-23-21-71-9.compute-1.amazonaws.com
+heroku config:set DB_PORT=5432
+heroku config:set DB_DATABASE=dfv6ivbsiaobg
+heroku config:set DB_USERNAME=vwhdjqvarhserr
+heroku config:set DB_PASSWORD=BNceUVu00jWfi_4kEgakJP_aQs
+
